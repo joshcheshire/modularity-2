@@ -1,5 +1,103 @@
 /* ADD YOUR STYLES HERE */
 
-.firstline{
+.centered{
+	text-align: center;
+}
+
+.centered > * {
+	padding:25px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+}
+
+.verticals{
+	vertical-align: middle;
+	line-height: 345px;
+}
+
+.moreverticals{
+	margin-top: 75px;
+}
+
+.list li{
+	display: inline;
+}
+
+.firstbutton{
+	background-color: #FF9999;
+	color: white;
+	text-decoration: none;
+	display:inline-block;
+	font-size: 35px;
+	border-radius: 10px;
+	padding: 20px 45px
 
 }
+
+.secondbutton {
+	text-decoration: none;
+	background-color: #ff9999;
+	color: white;
+	font-size: 15px;
+	border-radius: 10px;
+	display: inline-block;
+	padding: 10px 45px;
+}
+
+.thirdbutton{
+	text-decoration: none;
+	background-color: #ff9999;
+	color: white;
+	font-size: 15px;
+	border-radius: 10px;
+	padding: 5px 10px;
+}
+
+.learnmore{
+	text-decoration: none;
+	background-color: #ff9999;
+	color: white;
+	display: inline-block;
+	padding: 15px 45px;
+	border-radius: 10px;
+
+}
+
+.accept{
+	text-decoration: none;
+	background-color: #ff9999;
+	color: white;
+	display: inline-block;
+	padding: 15px 45px;
+	border-radius: 10px;
+	border:none;
+
+}
+
+.submit{
+	text-decoration: none;
+	background-color: #ff9999;
+	color: white;
+	display: inline-block;
+	padding: 15px 45px;
+	border-radius: 10px;
+	border:none;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
