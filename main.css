@@ -83,12 +83,131 @@
 	padding: 15px 45px;
 	border-radius: 10px;
 	border:none;
+}
 
+.navbar{
+	background-color: #ff9999;
+	border-radius: 5px;
+	padding:0px;
+	width: 90%;
+}
+	
+
+.navbar li {
+	display: inline-block;
+	padding: 10px 39px;
+
+}
+
+.navbar a{
+
+	color:white;
+	text-decoration: none;
+}
+
+
+
+.navbar a:hover{
+	background-color: gray;
+
+}
+
+.pagination{
+	font-size: 20px;
+
+
+
+}
+
+.pagination li{
+
+	display: inline-block;
+	padding: 10px;	
+
+}
+
+.pagination a{
+	color: #ff9999;
+}
+
+.pagination span{
+
+	color: gray;
+	text-decoration: underline;
+}
+
+.body{
+	clear: left;
+
+}
+
+.icon{
+	float: left;
+	padding:10px;
+
+
+}
+
+.comment{
+	overflow: hidden;
+
+}
+
+.comment time{
+
+	font-size: 12px;
+	color: gray;
+}
+
+
+.tab-list li{
+	display: inline-block;
+
+}
+ 
+.tab-list a{
+	text-decoration: none;
+	color:blue;
+	font-weight: bold;
+
+
+}
+.active-tab{
+	border: 1px solid blue;
+	border-bottom: 1px solid white;
+	border-radius: 5px 5px 0px 0px;
+	padding: 5px;
+	position: relative;
+	top: 1px;
+
+}
+
+
+.inactive-tabs{
+	border: 1px solid blue;
+	border: bottom 0px;
+	border-radius: 5px 5px 0 0;
+	padding: 5px;
+	position: relative;
+	top: 1px;
 
 
 
 
 }
+
+.tab-content {
+	border-radius: 5px;
+	border: 1px  solid blue;
+	padding:10px;
+}
+
+
+
+
+
+
+
 
 
 
